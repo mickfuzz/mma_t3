@@ -1,0 +1,55 @@
+
+
+section.mainbody nav.primary
+{
+	background: url("../img/zwartevilt.png")
+}
+
+
+section.mainbody nav.primary ul.links {
+    list-style: none outside none;
+}
+
+
+section.mainbody nav.primary ul.links li.link {
+   float: left;
+    text-align: center;
+    width: 15%;
+}
+
+
+section.mainbody nav.primary ul.links li.link a span.icon {
+
+    display: block;
+    height: 50px;
+    margin: 30px auto 0;
+    width: 50px;
+}
+
+
+section.mainbody nav.primary ul.links li.link a span.title {
+  display: block;
+  margin: 10px auto 0 auto;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: Ubuntu,  Arial, sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  -webkit-transition: color 0.2s linear;
+}
+
+ nav.primary ul.links li.link a:hover span.icon {
+    background-color: #FFFFFF;
+}
+
+nav.primary ul.links li.link  span.icon {
+    background-color: #1F1F1F;
+}
+
+
+
+#header{
+	clear: both;
+}
+
