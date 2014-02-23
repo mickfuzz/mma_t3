@@ -67,15 +67,14 @@
 							<source src="video/big_buck_bunny.webm" type="video/webm">
 							<source src="video/big_buck_bunny.ogg" type="video/ogg">
 							
-							<object width="640" height="360" type="application/x-shockwave-flash" data="video/flashmediaelement.swf">
-
-							<!-- Firefox uses the `data` attribute above, IE/Safari uses the param below -->
-							<param name="movie" value="video/flashmediaelement.swf" />
-							<param name="flashvars" value="controlbar=over&amp;image=stills/evil-frank.jpg&amp;file=video/big_buck_bunny.mp4" />
-							<!-- fallback image. note the title field below, put the title of the video there -->
-							<img src="stills/evil-frank.jpg" width="640" height="360" alt="flash fall back"
-							title="No video playback capabilities, please download the video below" />
-							</object>
+						<object type="application/x-shockwave-flash" data="video/flowplayer-3.2.18.swf" width="700" height="360">
+							<param name="movie" value="video/flowplayer-3.2.18.swf" />
+							<param name="allowFullScreen" value="true" />
+							<param name="wmode" value="transparent" />
+			
+							<param name="flashVars" value="config={'playlist':['../stills/evil-frank.jpg',{'url':'video%2Fbig_buck_bunny.mp4','autoPlay':false}]}" />
+							<img alt="Big Buck Bunny" src="stills/evil-frank.jpg" width="640" height="360" title="No video playback capabilities, please download the video below" />
+						</object>
 							Your browser doesn't support our player please upgrade or
 							<a href= "video/big_buck_bunny.ogg">
 							download the video file to play it.</a>
