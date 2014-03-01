@@ -1,6 +1,12 @@
 
 body {
-	background: url("../img/green_cup.png") scroll center top #FFFFFF;
+/*contact form 
+ * 	background: url("../img/green_cup.png") scroll center top #FFFFFF;
+
+ */
+
+	
+	 color: rgba(255,255,255,.5);
     margin: 10px auto 100px;
     text-align: center; 
  
