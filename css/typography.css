@@ -6,6 +6,15 @@ body {
  
 }
 
+/*contact form 
+ * 
+ */
+.form-control 
+{
+	width:"75%";
+	min-width:200px;
+}
+
 a:hover, a:visited, a:link, a:active
 {
     text-decoration: none;
@@ -35,7 +44,7 @@ section.mainbody
 section.contentbody 
 {
 	display:block;
-	margin: 0 10px; 
+	margin: 0 10px ; 
 
 }
 
@@ -70,7 +79,7 @@ nav.primary ul.links li.link a span.icon {
     background-repeat: no-repeat;
     display: block;
     height: 50px;
-    margin: 30px auto 0;
+    margin: 15px auto 0;
     width: 50px;
       
 }
@@ -87,7 +96,7 @@ nav.primary ul.links li.link a span.sub-title {
 
 nav.primary ul.links li.link a span.title {
   display: block;
-  margin: 10px auto 0 auto;
+  margin: 10px auto 5px auto;
   color: #fff;
   text-transform: uppercase;
   font-family: Ubuntu,  Arial, sans-serif;
@@ -100,22 +109,20 @@ nav.primary ul.links li.link a span.title {
 
 
 nav.primary ul.links li.link.home span.icon {
-    background-image: url("../img/icon_camera_mask_f_50.png");
+    background-image: url("../img/icon_house.png");
 }
 
-
 nav.primary ul.links li.link.video span.icon {
-    background-image: url("../img/icon_camera_mask_f_50.png");
+    background-image: url("../img/icon_video.png");
 }
 
 nav.primary ul.links li.link.stills span.icon {
     background-image: url("../img/icon_camera_mask_f_50.png");
 }
 
-nav.primary ul.links li.link.about span.icon {
-    background-image: url("../img/icon_camera_mask_f_50.png");
+nav.primary ul.links li.link.contact span.icon {
+    background-image: url("../img/icon_contact.png");
 }
-
 
 
  nav.primary ul.links li.link a:hover span.icon {

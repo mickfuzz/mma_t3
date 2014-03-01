@@ -1,0 +1,22 @@
+a:focus,a:active,a:focus{
+outline:none
+}
+
+#links  {
+/*
+ */
+  	padding:10px;	
+ }
+
+#links img {
+	width: 30%;
+	min-width: 150px;
+  	padding:5px;	
+  	margin:5px;	
+  	
+  	background: #000000;
+}
+
+
+
+
